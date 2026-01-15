@@ -1,7 +1,85 @@
-body{ background-color: black;
+body { background-color: black;
 }
 
-.Instagram-Post{
+.Instagram-Post {
+    width: 400px;
     background-color: white;
-    width: 400px    
+    margin: 40px auto;
+    font-family: Arial, Helvetica, sans-serif;  
+    padding: 0;
+    border: 1px solid green;    
 }.
+
+/* Header del Post */
+.post-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6px 10px;
+    border-bottom: 1px solid #eee;
+}
+
+/* logo && Texto */
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.logo i {
+    font-size: 22px;
+    cursor: pointer;
+}
+
+/* Comentarios para el usuario */
+.logo-text {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.2;
+}
+    
+.title {
+    font-size: 14px;
+    color: gray;
+}
+
+.subtitle {
+    font-size: 12px;
+    margin: 0;
+    color: gray;
+}
+
+/* Menu con puntos */
+.menu i {
+    font-size: 18px;
+    cursor: pointer;
+}
+.post-img {
+    width: 100%;
+}
+
+.post-img img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Iconos debajo de la imagen corazon, mensaje, etx */
+.post-icons {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+/* Iconos a la izquierda */
+.post-icons i {
+    font-size: 22px;
+    margin-right: 12px;
+    cursor: pointer;
+}
+/*Ultimo icono (bookmark)*/
+.post-icons i:last-child {
+    margin-right: 0;
+}
+.footer{
+   padding: 10px;
+}
